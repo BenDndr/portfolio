@@ -1,3 +1,5 @@
+import '../style/Button.css'
+
 const Button = () => {
     
     return (

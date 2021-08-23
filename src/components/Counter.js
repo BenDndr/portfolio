@@ -1,22 +1,41 @@
 import PropTypes from 'prop-types';
+import '../style/Button.css'
 
-const Counter = ({ count, click }) => {
+const Counter = ({ count, click1, click2, click3 }) => {
 
     return (
-        <div>    
-            <p>{count}</p>
-            <button onClick={() => click(count)} className="btn btn-danger">+1</button>
+        <div className="counter"> 
+            <center><h2>{count}</h2></center>   
+            <center>
+            <button 
+                onClick={() => click1(count)} 
+                className="btn btn-danger">
+                    +1
+            </button>
+            <button 
+                onClick={() => click3(count)} 
+                className="btn btn-success">
+                    Reset
+            </button>
+            <button 
+                onClick={() => click2(count)} 
+                className="btn btn-warning">
+                    -1
+            </button>
+            </center>
         </div>
     );
 }
 
 Counter.defaultProps = {
-    count: 0,
+    count: 1,
 }
 
 Counter.propTypes = {
-    count: PropTypes.number.isRequired,
-    click: PropTypes.func.isRequired,
+    count: PropTypes.number,
+    click1: PropTypes.func.isRequired,
+    click2: PropTypes.func.isRequired,
+    click3: PropTypes.func.isRequired,
 }
 
 export default Counter

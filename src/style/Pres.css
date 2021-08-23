@@ -1,0 +1,11 @@
+.pres {
+    margin: 5rem;
+    padding: 2rem;
+    border-radius: 16px;
+    border: 2px solid #933953;
+}
+
+h2 {
+    color: #933953;
+    font-weight: bold;
+}

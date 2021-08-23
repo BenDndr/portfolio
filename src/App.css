@@ -1,3 +1,43 @@
-.container {
-    background-color: blue;
+* {
+    font-family: 'Jura', sans-serif;
+}
+
+p, h1, h2, h3, h4 {
+    color: #031B26;
+}
+
+:root {
+    font-size: 16px;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #031B26;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #933953;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    margin-left: 5rem;
+    height: 100vh;
+}
+
+.count {
+    display: flex;
+    text-align: center;
+}
+
+.content {
+    padding: 1rem;
 }

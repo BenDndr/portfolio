@@ -5,40 +5,9 @@ import Projects from './components/Projects'
 import Navbar from './components/Navbar'
 import Pres from './components/Pres'
 import Footer from './components/Footer'
+import data from './data'
 
 function App() {
-  const [projects, setProject] = useState([
-    {
-        id: 1,
-        name: 'Test',
-        description: 'Hello'
-    },
-    {
-        id: 2,
-        name: 'React',
-        description: 'Good'
-    },
-    {
-      id: 3,
-      name: 'Third',
-      description: 'Holas'
-    },
-    {
-      id: 4,
-      name: 'Beurre',
-      description: 'Oui'
-    },
-    {
-      id: 5,
-      name: 'Schlouki',
-      description: 'Beurré'
-     },
-     {
-      id: 6,
-      name: 'Pastis',
-      description: 'Good'
-    }
-  ])
 
   const [count, setCount] = useState(1)
   
@@ -80,7 +49,7 @@ function App() {
           </div>
 
           <div className="project-section">
-            <Projects projects={projects}/>
+            <Projects projects={data}/>
           </div>
         </div>
         <Footer />

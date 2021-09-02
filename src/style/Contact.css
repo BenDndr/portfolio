@@ -1,0 +1,55 @@
+.coord-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coord-flex>p {
+    margin-left: 1rem;
+}
+
+.center>button {
+    background: #031B26;
+}
+
+.center>button:hover {
+    background: white;
+    color: #933952;
+}
+
+.form-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    width: 90%;
+    /* background-color: #933952; */
+    background: linear-gradient(135deg, #933952, #420919);
+    color: white;
+    border-radius: 16px;
+    padding: 2rem;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.input-text {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    width: 50%
+}
+
+textarea {
+    height: 5rem;
+}

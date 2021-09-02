@@ -11,35 +11,35 @@ const Navbar = () => {
             <ul className="nav-list">
                 <a href="#" className="nav-link">
                     <li className="nav-item">
-                        <FaChessQueen />
+                        <FaChessKing />
                         <span className="link-text">Logo</span>
                     </li>
                 </a>
 
                 <a href="#" className="nav-link">
                 <li className="nav-item">
-                    <FaChessRook />
+                    <FaChessQueen />
                     <span className="link-text">Home</span>
                 </li>
                 </a>
 
                 <a href="#" className="nav-link">
                     <li className="nav-item">
-                        <FaChessKing />
+                        <FaChessKnight />
                         <span className="link-text">Presentation</span>
                     </li>
                 </a>
 
                 <a href="#" className="nav-link">
                     <li className="nav-item">
-                        <FaChessPawn />
+                        <FaChessRook />
                         <span className="link-text">Projects</span>
                     </li>
                 </a>
 
                 <a href="#" className="nav-link">
                     <li className="nav-item">
-                        <FaChessKnight />
+                        <FaChessPawn />
                         <span className="link-text">Contact</span>
                     </li>
                 </a>

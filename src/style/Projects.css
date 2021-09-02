@@ -21,9 +21,9 @@
 
 .project-desc {
     padding: 1rem;
-    background-color: #933953;
+    background: linear-gradient(135deg, #933952, #420919);
     height: 40%;
-    border-radius: 0 0 14px 14px;
+    border-radius: 0 0 13px 13px;
 }
 
 .project-desc>p {

@@ -1,6 +1,6 @@
 .footer {
     color: white;
-    background-color: #933953;
+    background: linear-gradient(135deg, #933952, #420919);
     height: 5rem;
     display: flex;
     flex-direction: column;

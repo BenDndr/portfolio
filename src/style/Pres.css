@@ -5,7 +5,6 @@
     border: 2px solid #933953;
 }
 
-h2 {
-    color: #933953;
-    font-weight: bold;
+.pres>h2 {
+    margin-top: 2rem;
 }

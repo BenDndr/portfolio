@@ -6,7 +6,6 @@ import Navbar from './components/Navbar'
 import Pres from './components/Pres'
 import Footer from './components/Footer'
 import data from './data'
-import Title from './components/Title'
 import Contact from './components/Contact'
 import Youtubevid from './components/Youtubevid'
 import Skills from './components/Skills'
@@ -37,9 +36,14 @@ function App() {
     <div className="App">
       <Navbar />
       <main>
-          <div className="content">
+          <div className="content" id="topid">
           <div className="banner">
-            <center><h1>Bienvenue sur le Portfolio de Benjamin Dandre</h1></center>
+            <div className="pic-div">
+              <img src={require("./img/Tête-de-Schlouki.png").default} alt="photo" className="pic"/>
+            </div>
+            <div className="title">
+              <h1>Portfolio de Benjamin Dandre</h1>
+            </div>
             {/* <Counter 
               count={count} 
               click1={addOne} 
@@ -49,24 +53,13 @@ function App() {
           </div>
 
         <Pres />
-        <Title titletext="Mes compétences" />
+
         <Skills />
 
-        <Title titletext="Mes Projets" />
-
-        <Projects projects={data}/>
+        <Projects projects={data}/>     
         
-        <Title titletext="Vidéo de présentation de Dare to Go au Wagon Bordeaux" />
-        <p>
-          Au cours de ma formation au <a href="https://www.lewagon.com/fr/bordeaux"><strong>Wagon Bordeaux</strong></a>, 
-          J'ai travaillé sur un projet de groupe que j'ai eu la chance
-          présenter à la fin de la formation, vous trouverez ci-dessous
-          vidéo de la présentation de Dare to Go (5:30) et des autres projets de
-          de la promotion.
-        </p>
         <Youtubevid embedId="n78u5LzYeWg" />
 
-        <Title titletext="Me contacter" />
         <Contact form={form} click={showForm}/>
           
         </div>

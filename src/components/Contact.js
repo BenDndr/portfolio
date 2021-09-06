@@ -6,8 +6,8 @@ import { FaGithub } from 'react-icons/fa'
 
 const Contact = ({form, click}) => {
     return (
-        <div>
-            <center><h3>Mes Coordonnées</h3>
+        <div id="contactid">
+            <center><h2>Me contacter</h2>
             <div className="coord-flex">
                 <FaEnvelope />
                 <p>Mail: <a href="mailto:dandre.ben@gmail.com"><strong>dandre.ben@gmail.com</strong></a></p>

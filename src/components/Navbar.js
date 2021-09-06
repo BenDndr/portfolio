@@ -4,45 +4,54 @@ import { FaChessKing } from 'react-icons/fa'
 import { FaChessPawn } from 'react-icons/fa'
 import { FaChessKnight } from 'react-icons/fa'
 import { FaChessQueen } from 'react-icons/fa'
+import { FaChessBishop } from 'react-icons/fa'
+import { Link } from "react-scroll"
 
 const Navbar = () => {
     return (
-        <nav className="navb">
-            <ul className="nav-list">
-                <a href="#" className="nav-link">
-                    <li className="nav-item">
-                        <FaChessKing />
-                        <span className="link-text">Logo</span>
-                    </li>
-                </a>
-
-                <a href="#" className="nav-link">
+        <nav className="navbar">
+            <ul className="navbar-nav">
                 <li className="nav-item">
-                    <FaChessQueen />
-                    <span className="link-text">Home</span>
+                    <Link to="topid" className="nav-link" spy={true} smooth={true} offset={0} duration={500}>
+                        <FaChessKing />
+                        <span className="link-text">Back to Top</span>
+                    </Link>
                 </li>
-                </a>
 
-                <a href="#" className="nav-link">
-                    <li className="nav-item">
+                <li className="nav-item">
+                    <Link to="presid" className="nav-link" spy={true} smooth={true} offset={0} duration={500}>
+                        <FaChessQueen />
+                        <span className="link-text">Présentation</span>
+                    </Link>
+                </li>
+
+                <li className="nav-item">
+                    <Link to="skillid" className="nav-link" spy={true} smooth={true} offset={0} duration={500}>
+                        <FaChessBishop />
+                        <span className="link-text">Compétences</span>
+                    </Link>
+                </li>
+
+                <li className="nav-item">
+                    <Link to="projectid" className="nav-link" spy={true} smooth={true} offset={0} duration={500}>
                         <FaChessKnight />
-                        <span className="link-text">Presentation</span>
-                    </li>
-                </a>
+                        <span className="link-text">Projets</span>
+                    </Link>
+                </li>
 
-                <a href="#" className="nav-link">
-                    <li className="nav-item">
+                <li className="nav-item">
+                    <Link to="vidid" className="nav-link" spy={true} smooth={true} offset={0} duration={500}>
                         <FaChessRook />
-                        <span className="link-text">Projects</span>
-                    </li>
-                </a>
+                        <span className="link-text">Vidéo</span>
+                    </Link>
+                </li>
 
-                <a href="#" className="nav-link">
-                    <li className="nav-item">
+                <li className="nav-item">
+                    <Link to="contactid" className="nav-link" spy={true} smooth={true} offset={0} duration={500}>
                         <FaChessPawn />
                         <span className="link-text">Contact</span>
-                    </li>
-                </a>
+                    </Link>
+                </li>
             </ul>
         </nav>
     )

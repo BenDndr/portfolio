@@ -1,6 +1,4 @@
-import React from 'react'
 import PropTypes from "prop-types";
-import '../style/Video.css'
 
 const Youtubevid = ({embedId}) => {
     return (
@@ -10,7 +8,7 @@ const Youtubevid = ({embedId}) => {
                 Au cours de ma formation au <a href="https://www.lewagon.com/fr/bordeaux"><strong>Wagon Bordeaux</strong></a>, 
                 J'ai travaillé sur un projet de groupe que j'ai eu la chance
                 présenter à la fin de la formation, vous trouverez ci-dessous
-                vidéo de la présentation de Dare to Go (5:30) et des autres projets de
+                vidéo de la présentation de mon projet, Dare to Go (5min30), et des autres projets de
                 de la promotion.
             </p>
             <div className="video-responsive" >

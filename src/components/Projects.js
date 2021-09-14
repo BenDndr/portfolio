@@ -1,5 +1,4 @@
 import Project from './Project'
-import '../style/Projects.css'
 
 const Projects = ({ projects }) => {
 

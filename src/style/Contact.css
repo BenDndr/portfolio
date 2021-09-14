@@ -9,12 +9,12 @@
 }
 
 .center>button {
-    background: #031B26;
+    background: var(--main-color1);
 }
 
 .center>button:hover {
     background: white;
-    color: #933952;
+    color: var(--main-color2);
 }
 
 .form-div {
@@ -23,11 +23,11 @@
     align-items: center;
     max-width: 700px;
     width: 90%;
-    /* background-color: #933952; */
-    background: linear-gradient(135deg, #933952, #420919);
+    background: var(--base-gradient);
     color: white;
     border-radius: 16px;
     padding: 2rem;
+    font-size: 1.3rem;
 }
 
 .center {
@@ -37,7 +37,7 @@
 
 .input-box {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     margin-bottom: 4px;
 }
 
@@ -47,9 +47,49 @@
 }
 
 form {
-    width: 50%
+    width: 70%
 }
 
-textarea {
-    height: 5rem;
+.input-box input {
+    height: 2rem;
+    border-radius: 4px;
+    padding-left: .5rem;
+    font-size: 1.2rem;
+}
+
+.details {
+    font-weight: 500;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+}
+
+.input-text textarea {
+    border-radius: 4px;
+    padding-left: .5rem;
+    font-size: 1.2rem;
+}
+
+.wide-button {
+    padding: 1rem;
+    background-color: white;
+    color: var(--main-color1);
+    border: none;
+    border-radius: 4px;
+    margin: 1rem;
+    font-weight: bold;
+    transition: .3s ease-out;
+    cursor:pointer;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.wide-button:hover {
+    background-color: var(--main-color1);
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    form {
+        width: 95%
+    }
 }

@@ -1,5 +1,3 @@
-import React from 'react'
-import '../style/Pres.css'
 
 const Pres = () => {
     return (
@@ -10,14 +8,16 @@ const Pres = () => {
                     Suite à une expérience de plus de deux ans en marketing
                     digital, j’ai décidé de relever un nouveau challenge et de
                     devenir développeur full stack. Ma découverte du code durant les 9 semaines du bootcamp au 
-                    <a href="https://www.lewagon.com/fr/bordeaux"><strong>Wagon Bordeaux</strong></a> 
+                    <a href="https://www.lewagon.com/fr/bordeaux"><strong> Wagon Bordeaux </strong></a> 
                     a éveillée en moi une nouvelle passion et m’a donné envie de
-                    poursuivre dans ce domaine et de me perfectionner !
+                    poursuivre dans ce domaine et de me perfectionner ! J'ai depuis continuer
+                    à me former sur de nouveaux outils et de nouvelles technologies en réalisant
+                    divers projets.
                 </p>
 
                 <h2>Ce que je recherche</h2>
                 <p>
-                    Je suis actuellement en recherche d'emploi, je recherche un poste de développeur 
+                    Je suis actuellement à la recherche d'un poste de développeur 
                     full stack au sein d'une entreprise où je pourrai progresser et développer mes compétences. 
                     Je suis mobile partout en France, disponnible le plus tôt possible et je suis extremement motivé!
                 </p>

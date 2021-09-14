@@ -1,4 +1,3 @@
-import '../style/Projects.css'
 
 const Project = ({project}) => {
     const imgUrl = project.imgurl

@@ -1,9 +1,20 @@
+@import './style/Button.css';
+@import './style/Contact.css';
+@import './style/Footer.css';
+@import './style/Navbar.css';
+@import './style/Pres.css';
+@import './style/Projects.css';
+@import './style/Skills.css';
+@import './style/Video.css';
+
+
+
 * {
     font-family: 'Jura', sans-serif;
 }
 
 p, h1, h2, h3, h4 {
-    color: #031B26;
+    color: var(--main-color1);
 }
 
 :root {
@@ -15,11 +26,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: #031B26;
+    background: var(--main-color1);
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #933953;
+    background: var(--main-color2);
 }
 
 body {
@@ -56,6 +67,7 @@ main {
 }
 
 .pic {
+    border-radius: 50%;
     height: 15rem;
     width: 15rem;
 }
@@ -68,17 +80,17 @@ main {
 h2 {
     margin-top: 5rem;
     margin-bottom: 2rem;
-    color: #933953;
+    color: var(--main-color2);
     font-weight: bold;
 }
 
 a {
     text-decoration: none;
-    color: #933953;
+    color: var(--main-color2);
 }
 
 .bg-red {
-    background: linear-gradient(135deg, #933952, #420919);
+    background: var(--base-gradient)
 }
 
 @media only screen and (max-width: 600px) {
@@ -104,6 +116,10 @@ a {
     .pic {
         height: 10rem;
         width: 10rem;
+    }
+
+    h1 {
+        font-size: 1.3rem;
     }
     
 }

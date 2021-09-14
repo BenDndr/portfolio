@@ -1,4 +1,3 @@
-import '../style/Button.css'
 
 const Button = ({buttonText}) => {
     

@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import '../style/Button.css'
 
 const Counter = ({ count, click1, click2, click3 }) => {
 

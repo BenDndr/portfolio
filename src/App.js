@@ -39,10 +39,10 @@ function App() {
           <div className="content" id="topid">
           <div className="banner">
             <div className="pic-div">
-              <img src={require("./img/Tête-de-Schlouki.png").default} alt="photo" className="pic"/>
+              <img src={require("./img/profile_pic.jpeg").default} alt="photo" className="pic"/>
             </div>
             <div className="title">
-              <h1>Portfolio de Benjamin Dandre</h1>
+              <h1>Benjamin Dandre Développeur Web</h1>
             </div>
             {/* <Counter 
               count={count} 

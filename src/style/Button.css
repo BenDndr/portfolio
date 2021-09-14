@@ -1,15 +1,16 @@
 button {
     padding: 1rem;
-    background: linear-gradient(135deg, #933952, #420919);
+    background-color: #420919;
     color: white;
     border: none;
     border-radius: 4px;
     margin: 1rem;
     font-weight: bold;
-    transition: .5s ease;
+    transition: .3s ease-out;
     cursor:pointer;
 }
 
 button:hover {
-    background: linear-gradient(-135deg, #933952, #420919);
+    background-color: var(--main-color2);
 }
+

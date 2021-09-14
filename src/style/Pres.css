@@ -1,8 +1,9 @@
+
 .pres {
     margin: 5rem;
     padding: 2rem;
     border-radius: 16px;
-    border: 2px solid #933953;
+    border: 2px solid var(--main-color2);
     max-width: 800px;
 }
 

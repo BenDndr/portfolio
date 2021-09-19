@@ -4,7 +4,7 @@ const Youtubevid = ({embedId}) => {
     return (
         <div id="vidid">
             <center><h2>Vidéo de présentation de Dare to Go au Wagon Bordeaux</h2></center>
-            <p className="t2rem-mb">
+            <p className="t13rem">
                 Au cours de ma formation au <a href="https://www.lewagon.com/fr/bordeaux"><strong>Wagon Bordeaux</strong></a>, 
                 J'ai travaillé sur un projet de groupe que j'ai eu la chance
                 présenter à la fin de la formation, vous trouverez ci-dessous

@@ -5,7 +5,7 @@ const Skills = () => {
         <div id="skillid">
             <center><h2>Mes compétences</h2></center> 
             <div className="black-div">
-                Je travaille avec les technologies et les outils suivants
+                <p className="t13rem">Je travaille avec les technologies et les outils suivants</p>
 
                 <h3>Languages:</h3>
             

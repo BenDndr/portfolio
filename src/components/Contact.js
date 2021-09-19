@@ -24,15 +24,15 @@ const Contact = ({form, click}) => {
     return (
         <div id="contactid">
             <center><h2>Me contacter</h2>
-            <div className="coord-flex">
+            <div className="coord-flex t13rem">
                 <FaEnvelope />
                 <p>Mail: <a href="mailto:dandre.ben@gmail.com"><strong>dandre.ben@gmail.com</strong></a></p>
             </div>
-            <div className="coord-flex">
+            <div className="coord-flex t13rem">
                 <FaGithub />
                 <p>Github: <a href="https://github.com/BenDndr"><strong>BenDndr</strong></a></p>
             </div>
-            <div className="coord-flex">
+            <div className="coord-flex t13rem">
                 <FaLinkedin />
                 <p>LinkedIn: <a href="https://github.com/BenDndr"><strong>Benjamin DANDRE</strong></a></p>
             </div>

@@ -4,7 +4,7 @@ const Pres = () => {
         <div className="center" id="presid">
             <div className="pres">
                 <h2>Qui suis-je ?</h2>
-                <p>
+                <p className="t13rem">
                     Suite à une expérience de plus de deux ans en marketing
                     digital, j’ai décidé de relever un nouveau challenge et de
                     devenir développeur full stack. Ma découverte du code durant les 9 semaines du bootcamp au 
@@ -16,7 +16,7 @@ const Pres = () => {
                 </p>
 
                 <h2>Ce que je recherche</h2>
-                <p>
+                <p className="t13rem">
                     Je suis actuellement à la recherche d'un poste de développeur 
                     full stack au sein d'une entreprise où je pourrai progresser et développer mes compétences. 
                     Je suis mobile partout en France, disponnible le plus tôt possible et je suis extremement motivé !

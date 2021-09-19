@@ -123,3 +123,9 @@ a {
     }
     
 }
+
+@media only screen and (min-width: 600px) {
+    .t13rem {
+        font-size: 1.3rem;
+    }
+}

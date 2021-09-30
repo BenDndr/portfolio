@@ -1,6 +1,6 @@
 .footer {
     color: white;
-    background: var(--base-gradient);
+    background: var(--main-color3);
     height: 5rem;
     display: flex;
     flex-direction: column;

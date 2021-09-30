@@ -14,7 +14,7 @@
 }
 
 p, h1, h2, h3, h4 {
-    color: var(--main-color1);
+    color: var(--main-color3);
 }
 
 :root {
@@ -80,7 +80,7 @@ main {
 h2 {
     margin-top: 5rem;
     margin-bottom: 2rem;
-    color: var(--main-color2);
+    color: var(--main-color1);
     font-weight: bold;
 }
 
@@ -90,7 +90,7 @@ a {
 }
 
 .bg-red {
-    background: var(--base-gradient)
+    background: var(--main-color1)
 }
 
 @media only screen and (max-width: 600px) {

@@ -1,7 +1,7 @@
 .black-div {
     max-width: 80rem;
     margin: auto;
-    border: 2px solid var(--main-color1);
+    border: 2px solid var(--main-color3);
     font-weight: bold;
     padding: 3rem;
     border-radius: 16px;

@@ -22,7 +22,7 @@ const Contact = ({form, click}) => {
     
 
     return (
-        <div id="contactid">
+        <div id="contactid" class="padb">
             <center><h2>Me contacter</h2>
             <div className="coord-flex t13rem">
                 <FaEnvelope />

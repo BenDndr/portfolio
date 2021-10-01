@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const Youtubevid = ({embedId}) => {
     return (
-        <div id="vidid">
+        <div id="vidid" class="pad1">
             <center><h2>Vidéo de présentation de Dare to Go au Wagon Bordeaux</h2></center>
             <p className="t13rem">
                 Au cours de ma formation au <a href="https://www.lewagon.com/fr/bordeaux"><strong>Wagon Bordeaux</strong></a>, 

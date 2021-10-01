@@ -1,25 +1,29 @@
 
-.pres {
-    margin: 5rem;
-    padding: 2rem;
-    border-radius: 16px;
-    border: 2px solid var(--main-color3);
-    max-width: 800px;
+.pres { 
+    padding: 2rem;  
     background-color: var(--main-color1);
 }
 
 .pres>h2 {
     margin-top: 2rem;
-    color: white;
+    color: var(--main-color4);
 }
 
 .pres>p {
-    color: white;
+    color: var(--main-color4);
 }
 
 @media only screen and (max-width: 600px) {
     .pres {
         margin: auto;
-        width: 80%;
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .pres {
+        border-radius: 16px;
+        margin: 5rem;
+        max-width: 800px;
     }
 }

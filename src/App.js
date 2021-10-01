@@ -32,12 +32,16 @@ function App() {
     setForm(!form)
   }
 
+  var divBanner = {
+    backgroundImage: 'url(' + require("./img/banner.jpg").default + ')'
+  }
+
   return (
     <div className="App">
       <Navbar />
       <main>
           <div className="content" id="topid">
-          <div className="banner">
+          <div className="banner" style={divBanner}>
             <div className="pic-div">
               <img src={require("./img/profile_pic.jpeg").default} alt="photo" className="pic"/>
             </div>

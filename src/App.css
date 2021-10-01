@@ -58,6 +58,7 @@ main {
 }
 
 .banner {
+    background-color: var(--main-color3);
     display: flex;
     height: 20rem;
     align-items: center;

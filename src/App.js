@@ -41,7 +41,7 @@ function App() {
       <Navbar />
       <main>
           <div className="content" id="topid">
-          <div className="banner" style={divBanner}>
+            <div className="banner" style={divBanner}>
             <div className="pic-div">
               <img src={require("./img/profile_pic.jpeg").default} alt="photo" className="pic"/>
             </div>
@@ -55,17 +55,17 @@ function App() {
               click3={reset}
             /> */}
           </div>
+          <div className="main-container">
+            <Pres />
 
-        <Pres />
+            <Skills />
 
-        <Skills />
+            <Projects projects={data}/>     
+            
+            <Youtubevid embedId="n78u5LzYeWg" />
 
-        <Projects projects={data}/>     
-        
-        <Youtubevid embedId="n78u5LzYeWg" />
-
-        <Contact form={form} click={showForm}/>
-          
+            <Contact form={form} click={showForm}/>
+          </div>
         </div>
         <Footer />
       </main>

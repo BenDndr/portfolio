@@ -135,4 +135,8 @@ a {
     .t13rem {
         font-size: 1.3rem;
     }
+
+    .main-container {
+        margin: 0 3rem;
+    }
 }

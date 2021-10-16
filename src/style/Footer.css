@@ -7,3 +7,18 @@
     align-items: center;
     justify-content: center;
 }
+
+.link-footer > a {
+    font-size : 1.3rem;
+    margin: 0 .5rem;
+    transition: .3s ease-out;
+}
+
+.link-footer > a:hover {
+    color: white;
+}
+
+.margin-bot {
+    color: white;
+    margin-bottom: .5rem;
+}

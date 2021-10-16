@@ -34,7 +34,7 @@ const Contact = ({form, click}) => {
             </div>
             <div className="coord-flex t13rem">
                 <FaLinkedin />
-                <p>LinkedIn: <a href="https://github.com/BenDndr"><strong>Benjamin DANDRE</strong></a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/benjamin-dandre/"><strong>Benjamin DANDRE</strong></a></p>
             </div>
             
             <button onClick={click}>

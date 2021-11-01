@@ -1,7 +1,11 @@
 
+.pres-bg {
+    background-color: var(--main-color1);
+}
+
 .pres { 
     padding: 2rem;  
-    background-color: var(--main-color1);
+    
 }
 
 .pres>h2 {
@@ -22,8 +26,7 @@
 
 @media only screen and (min-width: 600px) {
     .pres {
-        border-radius: 16px;
-        margin: 3rem 0;
+        margin: 1.5rem 0;
         max-width: 80rem;
     }
 }

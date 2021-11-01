@@ -55,8 +55,12 @@ function App() {
               click3={reset}
             /> */}
           </div>
-          <div className="main-container">
+          
+          <div>
             <Pres />
+          </div>
+          
+          <div className="main-container">
 
             <Skills />
 

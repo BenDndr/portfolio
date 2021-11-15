@@ -20,7 +20,7 @@ const Pres = () => {
                     <p className="t13rem">
                         Je suis actuellement à la recherche d'un poste de développeur 
                         full stack au sein d'une entreprise où je pourrai progresser et développer mes compétences. 
-                        Je suis mobile partout en France, disponnible le plus tôt possible et je suis extremement motivé !
+                        Je suis mobile partout en France, disponible le plus tôt possible et je suis extrêmement motivé !
                     </p>
                 </div>
             </div>

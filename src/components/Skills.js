@@ -21,7 +21,7 @@ const Skills = () => {
                 <div className="grid">
                     <div><img src="https://www.imagile.fr/wp-content/uploads/2017/12/logo-ror-300x300.png" alt="logo rails" /> Rails</div>
                     <div><img src="https://blog.emberjs.com/images/logos/e-icon.png" alt="logo emberjs" /> Emberjs</div>
-                    <div><img src="https://cdn.freelogovectors.net/wp-content/uploads/2018/12/react_logo.png" alt="logo react" /> ReactJS</div> 
+                    <div><img src="https://ih1.redbubble.net/image.726903102.2890/pp,840x830-pad,1000x1000,f8f8f8.u1.jpg" alt="logo react" /> ReactJS</div> 
                 </div>
 
                 <h3>Outils:</h3>

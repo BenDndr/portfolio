@@ -1,5 +1,12 @@
 const data = [
   {
+    "id": 2,
+    "url": "https://coach-seeker.herokuapp.com/",
+    "imgurl": require("./img/CoachSeeker.png").default,
+    "name": "Coach Seeker",
+    "description": "Projet en équipe sur une semaine, Coach Seeker permet de mettre en relation des sportifs expérimentés et des sportifs débutants qui souhaitent se faire coacher. L'appli a été développée avec Ruby on Rails, HTML5, CSS, JavaScript, GitHub et déployée sur Heroku."
+  },
+  {
     "id": 1,
     "name": "Dare to Go",
     "url": "https://www.dare-to-go.com/",
@@ -7,18 +14,11 @@ const data = [
     "description": "Projet en équipe sur deux semaines, Dare to Go est une appli web destinée à un usage mobile qui propose des défis aux utilisateurs pour pouvoir vaincre leur timidité et sortir de leur zone de confort. Développée avec Ruby on Rails, HTML5, CSS, JavaScript, GitHub et déployée sur Heroku."
   },
   {
-      "id": 2,
-      "url": "https://coach-seeker.herokuapp.com/",
-      "imgurl": require("./img/CoachSeeker.png").default,
-      "name": "Coach Seeker",
-      "description": "Projet en équipe sur une semaine, Coach Seeker permet de mettre en relation des sportifs expérimentés et des sportifs débutants qui souhaitent se faire coacher. L'appli a été développée avec Ruby on Rails, HTML5, CSS, JavaScript, GitHub et déployée sur Heroku."
-  },
-  {
     "id": 3,
     "url": "http://www.beltran-ma.fr/",
     "imgurl": require("./img/Beltran-ma.png").default,
     "name": "Beltran-ma",
-    "description": "Site vitrine créé pour un professionnel du dépanage informatique. Réalisé avec React et déployé sur GitHub Pages "
+    "description": "Site vitrine créé pour un professionnel du dépanage informatique. Réalisé avec ReactJs et déployé sur GitHub Pages "
   },
   {
     "id": 4,
@@ -39,7 +39,7 @@ const data = [
     "url": "http://bendndr.com/react-tm/",
     "imgurl": require("./img/TaskManager.png").default,
     "name": "React-tm",
-    "description": "Petit projet sous forme de task manager réalisé pour découvrir le framework React. Réalisé avec react et déployé sur GitHub Pages."
+    "description": "Petit projet sous forme de task manager réalisé pour découvrir le framework React. Réalisé avec ReactJs et déployé sur GitHub Pages."
   }
 ]
 
